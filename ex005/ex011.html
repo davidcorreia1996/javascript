@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <h1>Sistema de Imigração</h1>
+     <input type="text" name="txps" id="txps" placeholder="Digite onde você mora">
+    <input type="submit" value="Enviar">
+    
+    <div id="res">
+
+    </div>
+    <script>
+        function Enviar () {
+            var ps = window.document.querySelector('input#txps')
+            var res = window.document.querySelector('div#res')
+            var psr = (name.value)
+            res.innerHTML = `Você é  brasileiro`
+            if (psr == Brasil){
+                console.log('Você é Brasileiro!') 
+            } else {
+                console.log('Você é estrangeiro!')
+            }
+            
+
+        }
+    </script>
+</body>
+</html>
